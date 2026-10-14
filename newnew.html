@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>KL E COMMERCE</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: white;
+}
+
+.sec1 {
+    display: grid;
+    grid-rows: 20% 30% 30% 20%;
+    grid-columns: 100%;
+}
+
+.sec2 {
+    background-color: blue;
+    height: 15vh;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sec3 {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+
+.sec4 {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+}
+
+.sec5 {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+
+.sec6 {
+    background-color: lightblue;
+    height: auto;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    text-align: center;
+    padding: 15px;
+}
+
+.sec7 {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: yellow;
+    box-sizing: border-box;
+    height: 350px;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    width: 500%;
+    height: 350px;
+    animation: slide 15s infinite;
+}
+
+.slider img {
+    width: 20%;
+    height: 350px;
+    object-fit: contain;
+}
+
+@keyframes slide {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    18% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-20%);
+    }
+
+    38% {
+        transform: translateX(-20%);
+    }
+
+    40% {
+        transform: translateX(-40%);
+    }
+
+    58% {
+        transform: translateX(-40%);
+    }
+
+    60% {
+        transform: translateX(-60%);
+    }
+
+    78% {
+        transform: translateX(-60%);
+    }
+
+    80% {
+        transform: translateX(-80%);
+    }
+
+    98% {
+        transform: translateX(-80%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+
+}
+
+.sec8 {
+    height: auto;
+    grid-row: 4/5;
+    grid-column: 1/2;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+.sec9 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px;
+}
+
+.sec10 {
+    padding: 15px;
+}
+
+.sec10 img {
+    width: 200px;
+    height: 160px;
+}
+
+.sec11 {
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+
+.sec12 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px;
+}
+
+.sec13 {
+    width: 30%;
+    padding: 15px;
+    background-color: lightgray;
+}
+
+.sec13 img {
+    width: 220px;
+    height: 190px;
+}
+
+.sec13 input {
+    padding: 5px;
+}
+
+.sec14 {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    height: 20vh;
+    grid-row: 6/7;
+    grid-column: 1/2;
+    box-sizing: border-box;
+}
+
+.sec14 a {
+    color: white;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="sec1">
+
+<div class="sec2">
+
+<div class="sec3">
+<img src="logo.jpg" width="190" height="80">
+</div>
+
+<div class="sec4">
+<input type="text" size="40" placeholder="Enter your item">
+<input type="button" value="Search">
+</div>
+
+<div class="sec5">
+<b>Login</b> |
+ <b>Register</b> |
+ <b>Cart(0)</b>
+</div>
+
+</div>
+
+<div class="sec6">
+<h3>Home | Mobiles | Laptops | Fashion | Offers</h3>
+</div>
+
+<div class="sec7">
+
+<div class="slider">
+ <img src="banner.png" alt="Banner 1">
+ <img src="banner1.jpg" alt="Banner 2">
+ <img src="banner2.jpg" alt="Banner 3">
+ <img src="banner3.jpg" alt="Banner 4">
+ <img src="banner4.jpg" alt="Banner 5">
+
+</div>
+
+</div>
+
+<div class="sec8">
+
+<h2>Categories</h2>
+
+<div class="sec9">
+
+<div class="sec10">
+
+<a href="https://www.amazon.com/cell-phone-devices/b?node=7072561011">
+<img src="mobile.jpg">
+</a>
+<br>
+<b>Mobiles</b>
+
+</div>
+
+<div class="sec10">
+
+<a href="https://www.amazon.com/Notebooks-Laptop-Computers/b?node=565108">
+<img src="laptop.jpg">
+</a>
+<br>
+<b>Laptops</b>
+
+</div>
+
+<div class="sec10">
+
+<a href="https://www.amazon.com/amazon-fashion/b?node=7141123011">
+<img src="fashion.jpg">
+</a>
+<br>
+<b>Fashion</b>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="sec11">
+
+<h2>Best Products</h2>
+
+<div class="sec12">
+
+<div class="sec13">
+
+<a href="https://www.flipkart.com/nothing-phone-3a-pro-grey-128-gb/p/itm04daaef6652d4">
+<img src="smartphone.jpg">
+</a>
+<br><br>
+<b>Nothing 3a</b>
+<br>
+₹25,999
+<br><br>
+<input type="button" value="Add to Cart">
+
+</div>
+
+<div class="sec13">
+
+<a href="https://www.amazon.com/ASUS-Zenbook-OLED-Laptop-Ultra/dp/B0FKMDXYPX?source=ps-sl-shoppingads-lpcontext&ref_=bing_fplfs&th=1">
+<img src="laptops.jpg">
+<a>
+<br><br>
+<b>Zenbook</b>
+<br>
+₹49,999
+<br><br>
+<input type="button" value="Add to Cart">
+
+</div>
+
+<div class="sec13">
+
+<a href="https://www.amazon.com/Nike-Womens-Pegasus-Metallic-Silver/dp/B0FRNF7KW9?source=ps-sl-shoppingads-lpcontext&ref_=bing_fplfs&th=1&psc=1">
+<img src="sportshoes.jpg">
+</a>
+<br><br>
+<b>Nike air zoom pegasus</b>
+<br>
+₹1,999
+<br><br>
+<input type="button" value="Add to Cart">
+
+</div>
+
+</div>
+
+</div>
+
+<div class="sec14">
+
+<b>KL E COMMERCE</b>
+<br><br>
+<a href="about.html">About Us</a>
+| Contact Us | 2500031267 | M TITUS
+
+</div>
+
+</div>
+
+</body>
+</html>
+

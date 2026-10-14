@@ -1,0 +1,22 @@
+
+
+
+<html>
+<head></head>
+<body>
+<label>A =</label><input type="text" id="text1" placeholder="enter variable value"/>
+<br>
+<label>B =</label><input type="text" id="text2" placeholder="enter variable value"/>
+<p id="demo1"></p>
+<button type="submit" onclick="clickfunc()">click to view</button>
+<script>
+function clickfunc(){
+let a=document.getElementById('text1').value;
+let b=document.getElementById('text2').value;
+let c = parseInt(a)+ parseInt(b);
+document.getElementbyId('demo1').innerHTML= 'addition of a and b =' + c;
+}
+</script>
+</body>
+</html>
+
